@@ -33,9 +33,9 @@ In the todo list page, you can :
     ```
 6. Manually set routes after the URL: 
     ```
-    http://localhost:3000** /todo **
-    http://localhost:3000** /login **
-    http://localhost:3000** /signup **
+    http://localhost:3000 **/todo**
+    http://localhost:3000 **/login**
+    http://localhost:3000 **/signup**
     ```
 7. If you would like to stop using the website:
     ```
