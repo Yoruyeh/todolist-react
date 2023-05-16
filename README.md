@@ -2,7 +2,7 @@
 ![image](./src/assets/images/screenshot.png)
 
 ## Introduction
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 Apart from the todo list page, all the other pages are static.
 In the todo list page, you can :
 * Enter your todo items in the input box at the top. 
@@ -31,11 +31,11 @@ In the todo list page, you can :
     ```
     webpack compiled successfully
     ```
-6. Manually set routes after the URL: 
-    http://localhost:3000 __/todo__
-    http://localhost:3000 __/login__
-    http://localhost:3000 __/signup__
-    
+6. Manually set routes after the URL:   
+    http://localhost:3000 __/todo__  
+    http://localhost:3000 __/login__  
+    http://localhost:3000 __/signup__  
+
 7. If you would like to stop using the website:
     ```
     ctrl + c
