@@ -10,10 +10,14 @@ const TodoCollection = ({
   return (
     <div>
       {todos.map(todo => {
-        return <TodoItem key={todo.id} todo={todo} 
-        onToggleDone={(id) => 
-          onToggleDone?.(id)
-        }/>
+        return (
+          <TodoItem
+            key={todo.id}
+            todo={todo}
+            onToggleDone={(id) => onToggleDone?.(id)}
+            onChangeMode={({ id, isEdit }) => onChangeMode?.({ id, isEdit })}
+          />
+        );
       })}
     </div>
   );
