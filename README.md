@@ -8,6 +8,7 @@ In the todo list page, you can :
 * Enter your todo items in the input box at the top. 
 * To add a new item, you can click the "Add" button or press the Enter key. 
 * To edit a todo item, simply double-click on it, and press Enter to save the changes, or press Esc to discard them. 
+* By clicking on the circle on the left of a todo item, you can toggle between marking it as completed or incomplete.
 * You can delete a todo item by clicking the "X" button on the right.
 
 
@@ -32,9 +33,9 @@ In the todo list page, you can :
     ```
 6. Manually set routes after the URL: 
     ```
-    http://localhost:3000**/todo**
-    http://localhost:3000**/login**
-    http://localhost:3000**/signup**
+    http://localhost:3000** /todo **
+    http://localhost:3000** /login **
+    http://localhost:3000** /signup **
     ```
 7. If you would like to stop using the website:
     ```
