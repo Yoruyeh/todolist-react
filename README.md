@@ -32,11 +32,10 @@ In the todo list page, you can :
     webpack compiled successfully
     ```
 6. Manually set routes after the URL: 
-    ```
     http://localhost:3000 __/todo__
     http://localhost:3000 __/login__
     http://localhost:3000 __/signup__
-    ```
+    
 7. If you would like to stop using the website:
     ```
     ctrl + c
