@@ -11,7 +11,7 @@ export const login = async ({ username, password }) => {
 
     const { authToken } = data
     if (authToken) {
-      return { sucess: true, ...data }
+      return { success: true, ...data }
     }
 
     return data;
