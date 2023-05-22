@@ -1,7 +1,7 @@
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { HomePage, TodoPage, LoginPage, SignUpPage } from './pages';
-import { AuthProvider } from 'context/authContext';
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
   return (
