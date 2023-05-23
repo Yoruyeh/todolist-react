@@ -1,15 +1,18 @@
 # Todo List X MVC with React
-![image](./src/assets/images/screenshot.png)
+![image](./src/assets/images/login-page.png)
+![image](./src/assets/images/signup-page.png)
+![image](./src/assets/images/todo-page.png)
 
 ## Introduction
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
-Apart from the todo list page, all the other pages are static.
+You can login or register a new account to edit the todo list.  
 In the todo list page, you can :
 * Enter your todo items in the input box at the top. 
 * To add a new item, you can click the "Add" button or press the Enter key. 
 * To edit a todo item, simply double-click on it, and press Enter to save the changes, or press Esc to discard them. 
 * By clicking on the circle on the left of a todo item, you can toggle between marking it as completed or incomplete.
 * You can delete a todo item by clicking the "X" button on the right.
+* Please remember to log out after editing. 
 
 
 ## Getting Started
@@ -30,13 +33,9 @@ In the todo list page, you can :
 5. The webpage will be opened in 'http://localhost:3000' automatically, if you see below message in terminal:
     ```
     webpack compiled successfully
-    ```
-6. Manually set routes after the URL:   
-    http://localhost:3000 __/todo__  
-    http://localhost:3000 __/login__  
-    http://localhost:3000 __/signup__  
+    ``` 
 
-7. If you would like to stop using the website:
+6. If you would like to stop using the website:
     ```
     ctrl + c
     ```
@@ -47,3 +46,6 @@ In the todo list page, you can :
 * React 18.2.0
 * react-router-dom 6.4.1
 * Sass
+* Postman
+* sweetalert2@11.6.4
+* jsonwebtoken@8.5.1
